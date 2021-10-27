@@ -33,6 +33,16 @@ pub mod utils {
     pub fn mix(c1: PrimaryColor, c2: PrimaryColor) -> crate::kinds::SecondaryColor {
         // --snip--
         // write by switch sentence
+        if c1 == Red && c2 == Yellow {
+            return SecondaryColor::Green
+        }
+        
+
+
+
+
+
+
     }
 }
 
