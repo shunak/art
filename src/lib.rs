@@ -36,13 +36,12 @@ pub mod utils {
         if c1 == Red && c2 == Yellow {
             return SecondaryColor::Green
         }
-        
-
-
-
-
-
-
+        if c1 == Red && c2 == Blue {
+            return SecondaryColor::Purple
+        }
+        if c1 == Blue && c2 == Yellow {
+            return SecondaryColor::Orange
+        }
     }
 }
 
