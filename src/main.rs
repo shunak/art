@@ -1,4 +1,4 @@
-extern crate art;
+extern crate art___;
 
 use art::PrimaryColor;
 use art::mix;
