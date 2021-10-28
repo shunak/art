@@ -39,8 +39,8 @@ pub mod utils {
         // write by switch sentence
         match mixedColor {
             (Red, Yellow) => crate::kinds::SecondaryColor::Green,
-            (Red, Blue) => crate::kinds::Purple,
-            (Green, Purple) => crate::kinds::Orange,
+            (Red, Blue) => crate::kinds::SecondaryColor::Purple,
+            (Green, Purple) => crate::kinds::SecondaryColor::Orange,
         }
 
 
