@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["shunak <shuna966@gmail.com>"]
 edition = "2018"
 license = "MIT"
-description = "All Art suggest something color...."
+description = "This is a test crate."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
