@@ -1,7 +1,7 @@
 extern crate art___;
 
-use art::PrimaryColor;
-use art::mix;
+use art___::PrimaryColor;
+use art___::mix;
 
 fn main() {
     let red = PrimaryColor::Red;
