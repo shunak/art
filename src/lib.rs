@@ -38,7 +38,7 @@ pub mod utils {
         let mixedColor: (PrimaryColor, PrimaryColor) = (c1,c2);
         // write by switch sentence
         match mixedColor {
-            (Red, Yellow) => crate::kinds::Green,
+            (Red, Yellow) => crate::kinds::SecondaryColor::Green,
             (Red, Blue) => crate::kinds::Purple,
             (Green, Purple) => crate::kinds::Orange,
         }
