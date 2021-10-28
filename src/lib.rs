@@ -35,16 +35,16 @@ pub mod utils {
     /// a secondary color.
     pub fn mix(c1: PrimaryColor, c2: PrimaryColor) -> crate::kinds::SecondaryColor {
         // --snip--
+        let mixedColor: (c1, c2); 
         // write by switch sentence
-        if c1 == Red && c2 == Yellow {
-            return SecondaryColor::Green
+        match mixedColor {
+            (Red, Yellow) => crate::kinds::Green,
+            (Red, Blue) => crate::kinds::Purple,
+            (Green, Purple) => crate::kinds::Orange,
         }
-        if c1 == Red && c2 == Blue {
-            return SecondaryColor::Purple
-        }
-        if c1 == Blue && c2 == Yellow {
-            return SecondaryColor::Orange
-        }
+
+
+
     }
 
 
