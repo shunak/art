@@ -35,7 +35,7 @@ pub mod utils {
     /// a secondary color.
     pub fn mix(c1: PrimaryColor, c2: PrimaryColor) -> crate::kinds::SecondaryColor {
         // --snip--
-        let mixedColor: (c1, c2); 
+        let mixedColor: (PrimaryColor, PrimaaryColor) = new::PrimaryColor() 
         // write by switch sentence
         match mixedColor {
             (Red, Yellow) => crate::kinds::Green,
